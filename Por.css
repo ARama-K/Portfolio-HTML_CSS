@@ -1,0 +1,82 @@
+header,footer{
+    background-color: #45818e;
+    /*font-style: italic;*/
+    font-weight:50;
+    padding: 15;
+    color: aliceblue;
+    font-family: 'Trebuchet MS';
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: space-evenly;
+}
+.container>*{
+    text-align: center;
+    align-items: center;
+    flex-basis: 300px;
+    font-size: larger;
+}
+.cont{
+    display: flex;
+    gap: 10px;
+}
+.cont>*{
+    align-items: center;
+}
+.abt{
+    background-image:url('oce.jpg');
+    text-align: center;
+    width: 1457;
+    height: 200;
+    color: aliceblue;
+    font-family: 'Trebuchet MS';
+    font-size: large;
+}
+.cg{
+    background-image:url('cgp.jpg');
+    text-align: center;
+    width: 1457;
+    height: 160;
+    color:white;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+    font-weight: 1500;
+}
+.white{
+    color: aliceblue;
+}
+.blu{
+    color:#45818e;
+}
+.conn{
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: lighter;
+}
+.col1{
+    width:50%;
+    color: #45818e;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    font-size: 40;
+}
+.col2{
+    width: 25%;
+    visibility: hidden;
+}
+.col3{
+    width:25px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family:'Trebuchet MS';
+}
+.col4{
+    width: 5%;
+    visibility: hidden;
+}
+.col5{
+    width: 17.5%;
+    visibility: hidden;
+}
