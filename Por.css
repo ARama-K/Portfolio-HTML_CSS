@@ -73,11 +73,35 @@ header,footer{
     font-size: larger;
     font-weight: 1500;
 }
+
+.cer{
+    display: grid;
+    grid-template-columns: 0.6fr 2fr 2fr;
+    /*align-items: center;
+    gap: 40px;*/
+}
+.l{
+    grid-column: 2;
+}
+
+.cert{
+    background-image:url('ce.jpg');
+    background-size: cover;
+    background-repeat:no-repeat ;
+    text-align: center;
+    width: 1457;
+    height: 200;
+    color:white;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+    font-weight: 1500;
+}
 .white{
     color: aliceblue;
 }
 .blu{
     color:#45818e;
+    
 }
 .conn{
     font-family: 'Trebuchet MS';
