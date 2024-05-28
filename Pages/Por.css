@@ -101,7 +101,9 @@ header,footer{
 }
 .blu{
     color:#45818e;
-    
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+    font-style: italic;
 }
 .conn{
     font-family: 'Trebuchet MS';
